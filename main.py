@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-API_KEY = os.getenv("OPENWEATHER_API_KEY", "004fbe3f4ad108ff0ac62cec915197ec")
+API_KEY = os.getenv("OPENWEATHER_API_KEY", "Your_API_Key")
 BASE_URL = "https://api.openweathermap.org/data/2.5"
 
 # Enhanced response models
